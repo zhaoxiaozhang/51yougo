@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>优购网</title>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fushi.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="./lib/layui/css/layui.css"/>
+		<script src="lib/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="login">
+			<div class="login-wrap">
+				<div class="loginl">
+					<a href="login.html">用户登录</a>
+					<a href="register.html">用户注册</a>
+					<i class="qq"></i>
+				</div>
+				<div class="first">
+					<a href="#">设为首页</a>
+					<a href="#">收藏本站</a>
+					<a href="#">遇到购物问题？联系我></a>
+				</div>
+			</div>
+		</div>
+		<!-- 顶部 -->
+		<div class="top-wrap">		
+			<div class="top-nav">
+				<div class="top-left">
+					<div class="top-logo"></div>
+				</div>
+				<div class="top-right">
+					<div class="top-text">
+						<input type="text" name="" id="top-inp" placeholder="好宝贝 等你搜">
+						<button id="top-btn">搜索</button>
+						<div class="top-search" style="display: none;"></div>
+					</div>
+					<dt class="top-img">
+						<dl class="img-l"></dl>
+						<dl class="img-c"></dl>
+						<dl class="img-r"></dl>
+						<dl class="img-r"></dl>
+					</dt>
+				</div>
+			</div>
+		</div>
+		<!-- 导航 -->
+		<div class="banner">
+			<div class="banner-wrap">
+				<ul>
+					<li  class="on">
+						<i class="iconfont">&#xe600;</i>
+						<a href="#">网站首页</a>
+						</li>
+					<li><a href="#">领券优惠直播</a></li>
+					<li><a href="#">实时跑量</a></li>
+					<li><a href="#">超级人气榜</a></li>
+					<li><a href="#">9块9包邮</a></li>
+					<li><a href="#">20元封顶</a></li>
+					<li><a href="#">钜惠券</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 内容展示区 -->
+		<div class="pro">
+			<div class="pro-wrap">
+				<div class="pro-l">
+					<dl>
+						<dt>
+							<i class="iconfont">&#xe688;</i>
+							<a href="#">服饰</a>
+						</dt>
+						<dt>
+							<i class="iconfont">&#xe62f;</i>
+							<a href="#">母婴</a>
+						</dt>
+						<dt>
+							<i class="iconfont">&#xe60c;</i>
+							<a href="#">化妆品</a>
+						</dt>
+						<dt>
+							<i class="iconfont">&#xe916;</i>
+							<a href="#">居家、日用</a>
+						</dt>
+						<dt>
+							<i class="iconfont">&#xe684;</i>
+							<a href="#">鞋包、配饰</a>
+						</dt>
+						<dt>
+							<i class="iconfont">&#xe6f3;</i>
+							<a href="#">美食</a>
+						</dt>
+						<dt>
+							<i class="iconfont">&#xe627;</i>
+							<a href="#">文体、车品</a>
+						</dt>
+						<dt>
+							<i class="iconfont">&#xe61d;</i>
+							<a href="#">数码、家电</a>
+						</dt>
+					</dl>
+				</div>
+				<!-- 轮播 -->
+				<div class="pro-c">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="img/1.jpg" alt="...">
+							</div>
+							<div class="item">
+								<img src="img/2.jpg" alt="...">
+							</div>
+							<div class="item">
+								<img src="img/3.jpg" alt="...">
+							</div>
+						</div>
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				<div class="pro-r">
+					<div class="bshare-custom">
+						<div class="bsPromo bsPromo2">
+							
+						</div><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a></div>
+					<a class="pro-r-a" href="#"></a>
+				</div>
+				</div>	
+			<div class="content">
+				<div class="dirver">您好！欢迎您光临本店，本店是一个在线购物网站，让你“省钱，放心，省时”是我们建站的初衷。</div>			
+				<div class="content-pro">
+					<h4>领券秒杀精选</h4>
+					<span class="content-sl">/ 实时更新 / 商家内部券</span>
+					<span class="content-sr">/ 将优选、性价比做到极致 /</span>
+				</div>
+				<div class="product">
+					<div class="product-top">
+						<div class="product-l fl">
+							<a href="#"><img src="picture/product.jpg" alt=""></a>
+						</div>
+						<div class="product-r fr">
+							<a href="#">【三只松鼠零食大礼包】网红小吃货一箱</a>
+							<span class="product-xu"><em class="eml"></em>券￥5.00<em class="emr"></em></span><sub class="subf">过期时间 2019-12-12</sub>
+							<h6>优惠券剩余 <em>196000</em> 张，已领取 <em>504000</em> 张销量 <em>753641</em> 件</h6>
+							<div class="product-rt">
+								<span>34.99</span>
+								<div class="product-sub">
+									<s>￥69.90</s>
+									<p>券后价</p>									
+								</div>
+								<a href="#">去下单</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-top">
+						<div class="product-l fl">
+							<a href="#"><img src="picture/2.jpg" alt=""></a>
+						</div>
+						<div class="product-r fr">
+							<a href="#">【三只松鼠零食大礼包】网红小吃货一箱</a>
+							<span class="product-xu"><em class="eml"></em>券￥5.00<em class="emr"></em></span><sub class="subf">过期时间 2019-12-12</sub>
+							<h6>优惠券剩余 <em>196000</em> 张，已领取 <em>504000</em> 张销量 <em>753641</em> 件</h6>
+							<div class="product-rt">
+								<span>34.99</span>
+								<div class="product-sub">
+									<s>￥69.90</s>
+									<p>券后价</p>									
+								</div>
+								<a href="#">去下单</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product">
+					<div class="product-top">
+						<div class="product-l fl">
+							<a href="#"><img src="picture/3.jpg" alt=""></a>
+						</div>
+						<div class="product-r fr">
+							<a href="#">【三只松鼠零食大礼包】网红小吃货一箱</a>
+							<span class="product-xu"><em class="eml"></em>券￥5.00<em class="emr"></em></span><sub class="subf">过期时间 2019-12-12</sub>
+							<h6>优惠券剩余 <em>196000</em> 张，已领取 <em>504000</em> 张销量 <em>753641</em> 件</h6>
+							<div class="product-rt">
+								<span>34.99</span>
+								<div class="product-sub">
+									<s>￥69.90</s>
+									<p>券后价</p>									
+								</div>
+								<a href="#">去下单</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-top">
+						<div class="product-l fl">
+							<a href="#"><img src="picture/4.jpg" alt=""></a>
+						</div>
+						<div class="product-r fr">
+							<a href="#">【三只松鼠零食大礼包】网红小吃货一箱</a>
+							<span class="product-xu"><em class="eml"></em>券￥5.00<em class="emr"></em></span><sub class="subf">过期时间 2019-12-12</sub>
+							<h6>优惠券剩余 <em>196000</em> 张，已领取 <em>504000</em> 张销量 <em>753641</em> 件</h6>
+							<div class="product-rt">
+								<span>34.99</span>
+								<div class="product-sub">
+									<s>￥69.90</s>
+									<p>券后价</p>									
+								</div>
+								<a href="#">去下单</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="product">
+					<div class="product-top">
+						<div class="product-l fl">
+							<a href="#"><img src="picture/5.jpg" alt=""></a>
+						</div>
+						<div class="product-r fr">
+							<a href="#">【三只松鼠零食大礼包】网红小吃货一箱</a>
+							<span class="product-xu"><em class="eml"></em>券￥5.00<em class="emr"></em></span><sub class="subf">过期时间 2019-12-12</sub>
+							<h6>优惠券剩余 <em>196000</em> 张，已领取 <em>504000</em> 张销量 <em>753641</em> 件</h6>
+							<div class="product-rt">
+								<span>34.99</span>
+								<div class="product-sub">
+									<s>￥69.90</s>
+									<p>券后价</p>									
+								</div>
+								<a href="#">去下单</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-top">
+						<div class="product-l fl">
+							<a href="#"><img src="picture/6.jpg" alt=""></a>
+						</div>
+						<div class="product-r fr">
+							<a href="#">【三只松鼠零食大礼包】网红小吃货一箱</a>
+							<span class="product-xu"><em class="eml"></em>券￥5.00<em class="emr"></em></span><sub class="subf">过期时间 2019-12-12</sub>
+							<h6>优惠券剩余 <em>196000</em> 张，已领取 <em>504000</em> 张销量 <em>753641</em> 件</h6>
+							<div class="product-rt">
+								<span>34.99</span>
+								<div class="product-sub">
+									<s>￥69.90</s>
+									<p>券后价</p>									
+								</div>
+								<a href="#">去下单</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class="fushi">
+				<!-- 内容区顶部 -->
+				<div class="fushi-top">
+					<div class="fushi-topl">
+						<span>领券优惠直播</span>
+						<em>69846</em>
+					</div>
+					<div class="fushi-topr"><a href="#">更多优惠?</a></div>
+				</div>
+				<!-- 内容分类区 -->
+				<div class="fenlei">
+					<ul class="fenlei-ul">
+						<li class="now"><a href="#">全部优惠<b class="cai">(67687)</b></a></li>
+						<li><a href="#">女装<b>(7298)</b></a></li>
+						<li><a href="#">母婴<b>(7039)</b></a></li>
+						<li><a href="#">化妆品<b>(4802)</b></a></li>
+						<li><a href="#">居家<b>(9365)</b></a></li>
+						<li><a href="#">鞋包配饰<b>(4172)</b></a></li>
+						<li><a href="#">美食<b>(6507)</b></a></li>
+						<li><a href="#">文体车品<b>(4058)</b></a></li>
+						<li><a href="#">数码家电<b>(3961)</b></a></li>
+						<li><a href="#">男装<b>(8256)</b></a></li>
+						<li><a href="#">内衣<b>(4972)</b></a></li>
+					</ul>
+				</div>
+				<!-- 图片展示区 -->
+				<div class="fushi-pro">
+					<div class="fushi-qie">
+						<ul class="fushi-qieu">
+							<li class="active not"><a href="#">最新</a> </li>
+							<li><a href="#">销量</a></li>
+							<li><a href="#">有效时间</a></li>
+							<li><a href="#">佣金</a></li>
+							<li><a href="#">领券量</a></li>
+							<li><a href="#">价格</a></li>
+						</ul>
+
+					</div>
+					<div class="cont">
+						<!-- ajax数据区域 -->
+						<div id="fushi-all"></div>
+						<div id="fushi-nv" style="display: none;"></div>
+						<div id="fushi-baby" style="display: none;"></div>
+						<div id="fushi-toile" style="display: none;"></div>
+						<div id="fushi-family" style="display: none;"></div>
+						<div id="fushi-shoes" style="display: none;"></div>
+						<div id="fushi-eat" style="display: none;"></div>
+						<div id="fushi-car" style="display: none;"></div>
+						<div id="fushi-digtil" style="display: none;"></div>
+						<div id="fushi-man" style="display: none;"></div>
+						<div id="fushi-shirt" style="display: none;"></div>
+					</div>
+					<!-- 分页区 -->
+					<div id="demo">
+						<div id="demo1"></div>
+						<div id="demo2" style="display: none;"></div>
+						<div id="demo3" style="display: none;"></div>
+						<div id="demo4" style="display: none;"></div>
+						<div id="demo5" style="display: none;"></div>
+						<div id="demo6" style="display: none;"></div>
+						<div id="demo7" style="display: none;"></div>
+						<div id="demo8" style="display: none;"></div>
+						<div id="demo9" style="display: none;"></div>
+						<div id="demo10" style="display: none;"></div>
+						<div id="demo11" style="display: none;"></div>
+				
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部区域 -->
+		<div class="footer">
+			<div class="footer-wrap">
+				<h1>"感谢有你,我们的坚持才更有意义"</h1>
+				<span>by 无忧购物网</span>
+				<div class="adress">
+					<p>© CopyRight  2017  无忧购物网  http://gogo.com </p>
+					<a href="#"> ^_^亲遇到问题，联系我帮你处理哈</a>
+				</div>
+			</div>
+		</div>
+		<!-- 回到顶部 -->
+		<div class="to-top">
+			<i class="iconfont top-icon">&#xe64a;</i>
+		</div>
+		<div id="content"></div>
+	</body>
+	<script type="text/javascript">
+
+
+	</script>
+
+</html>
+ 

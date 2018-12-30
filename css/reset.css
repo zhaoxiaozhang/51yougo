@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body{
+	width: 100%;
+	min-width: 1200px;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,li,p{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+}
+ul,ol{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a,button{
+	cursor: pointer;
+}
+a,a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+body{
+	background-color: #fff;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}

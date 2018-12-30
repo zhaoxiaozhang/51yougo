@@ -1,0 +1,36 @@
+.ui-pagination-container {
+	height: 40px;
+	line-height: 40px;
+	width: 400px;
+
+}
+.box{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.ui-pagination-container .ui-pagination-page-item {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #fff;
+	border-right: 1px solid rgb(153, 153, 153);
+	border-bottom: 1px solid rgb(153, 153, 153);
+	color: #888;
+	margin: 0 5px;
+	text-decoration: none;
+}
+
+.ui-pagination-container .ui-pagination-page-item:hover {
+	background: #FF3366;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.ui-pagination-container .ui-pagination-page-item.active {
+	background: #FF3366;
+	color: #FFFFFF;
+	cursor: default;
+}

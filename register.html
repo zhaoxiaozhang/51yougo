@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script src="lib/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.gif" alt=""></a>
+		</div>
+		<div class="wrap">
+			<div class="wrap-l">
+				<h4>填写用户注册信息</h4>
+				<form method="post" action="./php/person.php">
+					<table border="" cellspacing="" cellpadding="">
+						<tr>
+							<th>账号:</th>
+							<td><input type="text" name="user" id="user" placeholder="您要注册的账号"></td>
+							<td><span class="user-sp"></span></td>
+						</tr>
+						<tr>
+							<th>密码:</th>
+							<td><input type="password" name="password" id="password" placeholder="您的登录密码"></td>
+							<td><span class="pass-sp"></span></td>
+						</tr>
+						<tr>
+							<th>确认密码:</th>
+							<td><input type="password" name="again" id="again" placeholder="再次输入您的密码"></td>
+							<td><span class="again-sp"></span></td>
+						</tr>
+						<tr>
+							<th>邮箱:</th>
+							<td><input type="email" name="email" id="email" placeholder="请输入您的邮箱"></td>
+							<td><span class="email-sp"></span></td>
+						</tr>
+						<tr>
+							<th>验证码:</th>
+							<td><input type="text" id="code" placeholder="请输入验证码"><a href="javascript:;" id="codea"></a></td>
+							<td><span class="code-sp"></span></td>
+						</tr>
+						<tr>
+							<td>  </td>
+							<td><input type="submit" id="submit" value=""></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			
+			
+			
+			<div class="wrap-r">
+				<h4>提示:</h4>
+				<h5>如果已经拥有账号请:</h5>
+				<a href="login.html"></a>
+				<p>您还可以:</p>
+				<a href="#"></a>
+			</div>
+		</div>
+	</body>
+	<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

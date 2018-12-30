@@ -1,0 +1,246 @@
+.fushi{
+	width: 1200px;
+	margin: 0 auto;
+}
+.fushi-top{
+	width: 1200px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.fushi-topl{
+	height: 50px;
+	line-height: 50px;
+}
+.fushi-topl span{
+	font-size: 18px;
+}
+.fushi-topl  em{
+	display: inline-block;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	background: #5DCAC5;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	margin-left: 10px;
+	border-radius: 15px;
+	
+}
+.fushi-topr{
+	line-height: 50px;
+}
+.fushi-topr a{
+	color: #000000;
+	text-decoration: none;
+}
+.fushi-topr a:hover{
+	text-decoration: none;
+}
+.fenlei{
+	width: 1200px;
+	height: 50px;
+	background: white;
+}
+.fenlei ul{
+	width: 1100px;
+	height: 50px;
+	margin: 0 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.now{
+	background-color: #FEF38B;
+	border-radius: 50%;
+	opacity: 0.8;
+}
+
+.fenlei ul li a {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 50px;
+	color: #4C4C4C;
+	font-size: 11px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fenlei ul li a b{
+	font-weight: normal;
+	margin-left: 5px;
+}
+.fenlei ul li a:hover{
+	color: red;
+}
+.fushi-qie{
+	width: 1200px;
+	height: 40px;
+	background: #F9F9F9;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1px;
+
+}
+.fushi-qie ul{
+	width: 450px;
+	height: 40px;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.fushi-qie ul li{
+	height: 39px;
+	border-top: 2px solid transparent;
+}
+.fushi-qie ul li a{
+	display: inline-block;
+	width: 75px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	text-decoration: none;
+	color: #666666;
+}
+.fushi-qie ul .active{
+	color: #FF0000;
+	background: #FFFFFF;
+	border-top: 2px solid #FF0000;
+}
+.fushi-qier{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+}
+.fushi-qier a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	color: #666;
+}
+.fushi-qier a i{
+	font-size: 18px;
+	color: #454545;
+	margin: 0 5px;
+}
+.fushi-qier span b{
+	color: #FF6255;
+}
+/* 图片展示 */
+#fushi-all, #fushi-nv, #fushi-baby, #fushi-toile, #fushi-family, #fushi-shoes,
+#fushi-eat, #fushi-car, #fushi-digtil, #fushi-man, #fushi-shirt
+{
+	width: 1200px;
+	height: 2100px;
+}
+.fushi-pros{
+	float: left;
+	width: 284px;
+	height: 400px;
+	background: white;
+	border: 1px solid transparent;
+	margin: 0 16px 16px 0;
+
+}
+.fushi-pros:hover{
+	border: 1px solid #FF0060;
+}
+.fushi-pro img{
+	display: inline-block;
+	width: 282px;
+	height: 284px;
+}
+.fushi-prob{
+	width: 284px;
+	height: 117px;
+	padding: 18px 12px;
+}
+.fushi-msgt{
+	width: 284px;
+	height: 50px;
+}
+.fushi-msgt i{
+	font-style: normal;
+	color: #FF0060;
+	font-weight: bold;
+}
+.fushi-msgt b{
+	color: #FF0060;
+	font-size: 30px;
+}
+.fushi-msgt sub{
+	margin-left: 10px;
+	color: #FF0060;
+}
+.fushi-msgt s{
+	margin-left: 10px;
+	color: #AAB2C8;
+}
+.fushi-msgt span{
+	display: inline-block;
+	width: 60px;
+	height: 26px;
+	color: #FF0060;
+	line-height: 26px;
+	text-align: center;
+	border-top: 1px dashed #FF0060;
+	border-bottom: 1px dashed #FF0060;
+	position: relative;
+	margin-left: 5px;
+}
+
+.fushi-eml:before{
+	content: "";
+	position: absolute;
+	display: inline-block;
+	background: url(../img/jingling.png) -120px -79px no-repeat;
+	width: 3px;
+	height: 25px;
+	left: 0;
+	top: 0;
+}
+.fushi-emr:after{
+	content: "";
+	position: absolute;
+	display: inline-block;
+	background: url(../img/jingling.png) -139px -79px no-repeat;
+	width: 3px;
+	height: 25px;
+	right: 0;
+	top: 0;
+}
+.fushi-msgb{
+	position: relative;
+}
+.fushi-msgb a{
+	display: block;
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+}
+.fushi-msgb i{
+	position: absolute;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/jingling.png) -78px 0 no-repeat;
+	right: 4px;
+}
+
+/* 分页 */
+.fen-nav{
+	width: 1200px;
+	height: 40px;
+}
+
+#demo{
+	display: table;
+	margin: 0 auto;
+}
+.clicka{
+	display: inline-block;
+	width: 282px;
+	height: 284px;
+}

@@ -1,0 +1,263 @@
+/* 登录区 */
+.login{
+	width: 100%;
+	height: 33px;
+}
+.login-wrap{
+	width: 1200px;
+	height: 33px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+}
+.loginl a{
+	color: #333333;
+	font-size: 11px;
+	text-decoration: none;
+}
+.loginl a{
+	display: inline-block;
+	margin-left: 10px;
+}
+.first a{
+	color: #333;
+	font-size: 13px;
+}
+
+
+/* 头部区域 */
+.top-wrap{
+	width: 100%;
+	height: 96px;
+}
+.top-nav{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.top-left{
+	float: left;
+	width: 500px;
+	height: 100%;
+}
+.top-right{
+	float: right;
+	width: 700px;
+	height: 100%;
+}
+.top-logo{
+	background-image: url(../img/logo.gif);
+	width: 116px;
+	height: 45px;
+	margin-top: 10px;
+	margin-left: 30px;
+
+}
+.top-text{
+	float: left;
+	width: 337px;
+	height: 37px;
+	position: relative;
+	margin-top: 29.5px;
+}
+.top-text #top-inp{
+	width: 240px;
+	height: 33px;
+	box-sizing: border-box;
+	border: 2px solid #F00582;
+	padding: 0;
+	padding-left: 5px;
+	position: absolute;
+	top: 0;
+}
+.top-search{
+	position: absolute;
+	width: 240px;
+	height: 200px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	float: left;
+	top: 33px;
+	opacity: 0.8;
+	z-index: 10;
+}
+.top-text #top-btn{
+	width: 88px;
+	height: 33px;
+	background-color: #F00582;
+	color: #FFFFFF;
+	border: 0;
+	margin-left: -5px;
+	position: absolute;
+	top: 0;
+	left: 245px;
+}
+.top-img{
+	float: right;
+	width: 337px;
+	height: 80px;
+	padding-top: 7px;
+}
+.img-l{
+	float: left;
+	width: 60px;
+	height: 70px;
+	background-image: url(../img/baozhang.png);
+	background-position: 0px -2px;
+	margin: 5px 10px;
+	
+}
+.img-c{
+	float: left;
+	width: 60px;
+	height: 70px;
+	background-image: url(../img/baozhang.png);
+	background-position: 0px -80px;
+	margin: 5px 10px;
+}
+.img-r{
+	float: left;
+	width: 60px;
+	height: 70px;
+	background-image: url(../img/baozhang.png);
+	background-position: 0px -156px;
+	margin: 5px 10px;
+}
+/* 导航 */
+.banner{
+	width: 100%;
+	height: 38px;
+	background-color: #F00582;
+}
+.banner .banner-wrap{
+	width: 1200px;
+	height: 38px;
+	margin: 0 auto;
+}
+.banner .banner-wrap ul{
+	width: 1200px;
+	height: 38px;
+}
+.banner .banner-wrap ul li{
+	float: left;
+	width: 165px;
+	height: 38px;
+	line-height: 38px;
+	
+}
+
+.banner .banner-wrap ul li a{
+	display: inline-block;
+	width: 165px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.on{
+	width: 180px;
+	height: 38px;
+	line-height: 38px;
+	background-color: #BD166F;
+}
+.banner .banner-wrap ul li:first-child a{
+	width: 130px;
+	height: 38px;
+	line-height: 38px;
+	float: right;
+}
+.banner .banner-wrap ul li:first-child i{
+	font-size: 25px;
+	cursor: pointer;
+	margin-left: 10px;
+	color: #FFFFFF;
+}
+.banner .banner-wrap ul li:hover{
+	background-color: #BD166F;
+}
+.banner .banner-wrap ul li a:hover{
+	background-color: #BD166F;
+}
+
+/* 底部区域 */
+.footer{
+	width: 100%;
+	height: 193px;
+	background: #373737;
+	border-top: 2px solid #FF3366;
+}
+.footer-wrap{
+	width: 1200px;
+	height: 191px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 50px;
+
+}
+.footer h1{
+	width: 600px;
+	text-align: center;
+	color: #9F9F9F;
+	margin: 0 auto;
+
+	font-family: "宋体";
+}
+.footer span{
+	position: absolute;
+	color: white;
+	display: inline-block;
+	right: 160px;
+	top: 18px;
+	font-size: 17px;
+	padding-top: 50px ;
+}
+.adress{
+	position: absolute;
+	width: 600px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.adress p{
+	color: #9F9F9F;
+	display: inline-block;
+	font-size: 16px;
+
+}
+.adress a{
+	display: inline-block;
+	color: #77A7C2;
+	text-decoration: none;
+}
+.to-top{
+	width: 50px;
+	height: 50px;
+	border-radius: 50% 50%;
+	z-index: 99;
+	cursor: pointer;
+	background: white;
+	position: fixed;
+	bottom: 80px;
+	right: 70px;
+}
+.top-icon{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #858585;
+}
+.top-icon:hover{
+	color: #FF3366;
+}

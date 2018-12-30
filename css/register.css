@@ -1,0 +1,143 @@
+body{
+	width: 100%;
+	min-width: 1000px;
+	background-color: white;
+}
+.logo{
+	width: 1000px;
+	height: 66px;
+	margin: 0 auto;
+}
+.logo a{
+	display: inline-block;
+	width: 176px;
+	height: 70px;
+}
+.logo img{
+	display: inline-block;
+	width: 176px;
+	height: 70px;
+	margin-top: 20px;
+}
+.wrap{
+	width: 1000px;
+	height: 327px;
+	margin: 30px auto;
+	border: 2px solid #D7DCE1;
+	display: flex;
+	justify-content: space-between;
+}
+.wrap-l{
+	width: 500px;
+	height: 320px;
+	margin-left: 30px;
+}
+.wrap-l h4{
+	color: #646665;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.wrap-l table{
+	border: 0;
+}
+.wrap-l table tr{
+	line-height: 24px;
+}
+.wrap-l table th{
+	display: inline-block;
+	border: 0;
+	font-size: 12px;
+	color: #646665;
+	font-weight: normal;
+	text-align: right;
+	display: inline-block;
+	width: 60px;
+	height: 39px;
+	line-height: 39px;
+}
+.wrap-l table td{
+	display: inline-block;
+	border: 0;
+	height: 39px;
+	line-height: 39px;
+}
+.wrap-l table input{
+	width: 176px;
+	height: 20px;
+	margin: 5px 5px 8px 10px;
+	border: 1px solid;
+	border-color: #9ca5b4 #c2c8cf #c2c8cf #9ca5b4;
+	padding-left: 5px;
+	
+	
+}
+.wrap-l table input::-webkit-input-placeholder{
+	font-size: 8px;
+	color: #9C9C9C;
+}
+.wrap-l table input:-moz-input-placeholder{
+	font-size: 8px;
+	color: #9C9C9C;
+}
+.wrap-l table input::-moz-input-placeholder{
+	font-size: 8px;
+	color: #9C9C9C;
+}
+.wrap-l table input::-ms-input-placeholder{
+	font-size: 8px;
+	color: #9C9C9C;
+}
+
+.wrap-l table tr #submit{
+	border: 0;
+	width: 102px;
+	height: 43px;
+	background: url(../img/btn.gif) -197px -1px no-repeat;
+	margin: 8px 0 0 30px;
+	cursor: pointer;
+}
+.wrap-r{
+	width: 400px;
+}
+.wrap-r h5{
+	color: #434B58;
+}
+.wrap-r h4{
+	color: #434B58;
+}
+.wrap-r p{
+	color: #434B58;
+	font-size: 15px;
+	font-family: "宋体";
+}
+.wrap-r a:nth-of-type(1){
+	display: block;
+	width: 102px;
+	height: 42px;
+	background: url(../img/btn.gif) -398px -97px;
+}
+.wrap-r a:nth-of-type(2){
+	display: block;
+	width: 170px;
+	height: 32px;
+	background: url(../img/qq_login.png);
+}
+
+
+form tr span{
+	font-size: 13px;
+}
+#code{
+	width: 100px;
+}
+#codea{
+	display: inline-block;
+	width: 64px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+	background: #000000;
+	color: white;
+	margin-right: 8px;
+}
